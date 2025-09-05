@@ -1,0 +1,16 @@
+.conteiner{
+     display: grid;
+    grid-template-columns:
+    1fr 1fr 
+    minmax(10px , 1fr) 3fr
+    repeat(5,1fr)
+    50px auto 100px 1fr;
+    gap: 1em;
+
+}
+
+img{
+    width: 30em;
+    height: auto;
+
+}

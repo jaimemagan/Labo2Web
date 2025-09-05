@@ -1,0 +1,36 @@
+.ConteinerMain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    gap: 20px; /* espacio entre las columnas */
+    width: 90%;
+    margin: auto;
+}
+
+.conteiner, .conteiner2, .conteiner3 {
+    display: flex;
+    flex-direction: column; /* cada item en fila vertical */
+    gap: 10px;
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.item {
+    background: orange;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.conteiner img,
+.conteiner2 img,
+.conteiner3 img {
+    width: 100%;      /* ocupa todo el ancho del contenedor */
+    height: 200px;    /* todas tendrán la misma altura */
+    object-fit: cover; /* recorta la imagen manteniendo proporción */
+    border-radius: 8px;
+}
+
+
+
